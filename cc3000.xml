@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="Assembly Source File">
+<includepath>${TIVAWARE}</includepath>
+
+</language>
+<language name="C Source File">
+<includepath>${TIVAWARE}</includepath>
+<includepath>${TIVAWARE}/cc3000</includepath>
+<includepath>${TIVAWARE}/cc3000/src/host_driver/core_driver</includepath>
+<includepath>${TIVAWARE}/cc3000/drivers/ek-tm4c123gxl</includepath>
+<includepath>${TIVAWARE}/cc3000/src/host_driver</includepath>
+<includepath>${TIVAWARE}/cc3000/src/host_driver/include</includepath>
+<includepath>${TIVAWARE}/cc3000/src/spi</includepath>
+<includepath>${TIVAWARE}/cc3000/src</includepath>
+<includepath>${TIVAWARE}/cc3000/src/uart</includepath>
+
+</language>
+<language name="C++ Source File">
+<includepath>${TIVAWARE}</includepath>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="Assembly Source File">
+<macro>
+<name>TARGET_IS_BLIZZARD_RB1</name><value/>
+</macro>
+<macro>
+<name>CC3000_TM4C123_SPI</name><value/>
+</macro>
+<macro>
+<name>PART_TM4C123GH6PM</name><value/>
+</macro>
+<macro>
+<name>UART_BUFFERED</name><value/>
+</macro>
+<macro>
+<name>_POSIX_SOURCE</name><value/>
+</macro>
+
+</language>
+<language name="C Source File">
+<macro>
+<name>TARGET_IS_BLIZZARD_RB1</name><value/>
+</macro>
+<macro>
+<name>TM4C123GH6PM</name><value/>
+</macro>
+<macro>
+<name>PART_TM4C123GH6PM</name><value/>
+</macro>
+<macro>
+<name>CC3000_TM4C123_SPI</name><value/>
+</macro>
+<macro>
+<name>UART_BUFFERED</name><value/>
+</macro>
+<macro>
+<name>_POSIX_SOURCE</name><value/>
+</macro>
+
+</language>
+<language name="C++ Source File">
+<macro>
+<name>TARGET_IS_BLIZZARD_RB1</name><value/>
+</macro>
+<macro>
+<name>TM4C123GH6PM</name><value/>
+</macro>
+<macro>
+<name>PART_TM4C123GH6PM</name><value/>
+</macro>
+<macro>
+<name>CC3000_TM4C123_SPI</name><value/>
+</macro>
+<macro>
+<name>UART_BUFFERED</name><value/>
+</macro>
+<macro>
+<name>_POSIX_SOURCE</name><value/>
+</macro>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+</cdtprojectproperties>
